@@ -1,0 +1,51 @@
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    font-size: 14px;
+}
+
+button.tablerbtn {
+    /*font-family: 'Abel', sans-serif;*/
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+.btn-pending{
+    
+    background: linear-gradient(90deg,rgb(228, 172, 240) 0%,#db71e9 60%);
+    color: #fff;
+}
+
+.btn-approved{
+
+    background: linear-gradient(90deg,rgb(180, 195, 238) 0%,#697eda 60%);
+    color: #fff;
+}
+
+.btn-reject{
+
+    background: linear-gradient(90deg,rgb(230, 194, 180) 0%,#e7854c 60%);
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .tablecontent{
+        /* padding-left: 50px; */
+        overflow-x: auto;
+    }
+}
+
+@media screen and (max-width: 990px){
+
+    .tablecontent{
+        /* padding-left: 50px; */
+        overflow-x: auto;
+    }
+}

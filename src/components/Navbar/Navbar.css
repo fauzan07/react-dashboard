@@ -1,0 +1,44 @@
+.text-facebook {
+    color: #3b5998;
+}
+
+.text-insta {
+    color: #da257f;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4dcdf6;
+}
+
+.active-cyan input.form-control[type=text] {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+.active-cyan .fa, .active-cyan-2 .fa {
+    color: #4dd0e1;
+}
+
+.search-bar {
+    position: relative;
+    right: 198px;
+}
+
+
+@media screen and (max-width: 600px){
+.search-bar {
+    position: relative;
+    /* right: 198px; */
+    left: 20px;
+    padding-bottom: 10px;
+}
+}
+
+@media screen and (max-width: 990px){
+.search-bar {
+    position: relative;
+    right: 1px;
+}
+}

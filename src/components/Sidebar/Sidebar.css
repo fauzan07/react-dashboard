@@ -1,0 +1,48 @@
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width: 280px;
+  max-width: 280px;
+  background: #fff;
+  color: #000;
+  transition: all 0.3s;
+}
+
+#sidebar a{
+  color: #000;
+  text-decoration: none;
+}
+
+#sidebar .sidebar-header {
+  background: #fff;
+}
+
+
+#sidebar ul li a {
+  padding: 10px 1px;
+  font-size: 14px;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: #4dcdf6;
+
+}
+
+.project-text {
+  position: relative;
+    left: 59px;
+    bottom: 27px;
+}
+
+.icons{
+  float: right;
+}
+
+.btn-blue{
+  background-color: #4dcdf6;
+}

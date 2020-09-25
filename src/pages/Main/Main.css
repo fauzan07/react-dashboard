@@ -1,0 +1,25 @@
+.bg-main{
+    background-color: #f5f5f5;
+}
+
+.bg-purple{
+    
+    background: linear-gradient(90deg,rgb(228, 172, 240) 0%,#db71e9 60%);
+    color: #fff;
+}
+
+.bg-blue{
+
+    background: linear-gradient(90deg,rgb(180, 195, 238) 0%,#697eda 60%);
+    color: #fff;
+}
+
+.bg-red{
+
+    background: linear-gradient(90deg,rgb(230, 194, 180) 0%,#e7854c 60%);
+    color: #fff;
+}
+
+.rounded {
+    border-radius: 1.25rem!important;
+}
