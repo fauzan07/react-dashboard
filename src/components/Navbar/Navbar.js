@@ -20,10 +20,10 @@ const Navbar=()=> {
                         <div className="img-icon d-flex"><img src={Iconimg} width="50" alt="logo"/>
                             <h6 className="px-2 pt-3">Angelina Deo</h6>
                         </div>
-                        <a href="" target="blank"><i className="text-facebook fa fa-facebook-square pl-4" aria-hidden="true"></i></a>
-                        <a href="" target="blank"><i className="text-insta fa fa-instagram pl-3" aria-hidden="true"></i></a>           
-                        <a href="" target="blank"><i className="text-danger fa fa-google pl-3" aria-hidden="true"></i></a>
-                        <a href="" target="blank"><i className="text-primary fa fa-linkedin-square pl-3" aria-hidden="true"></i></a>
+                        <a href="#" target="blank"><i className="text-facebook fa fa-facebook-square pl-4" aria-hidden="true"></i></a>
+                        <a href="#" target="blank"><i className="text-insta fa fa-instagram pl-3" aria-hidden="true"></i></a>           
+                        <a href="#" target="blank"><i className="text-danger fa fa-google pl-3" aria-hidden="true"></i></a>
+                        <a href="#" target="blank"><i className="text-primary fa fa-linkedin-square pl-3" aria-hidden="true"></i></a>
                     </div>
             </nav>
 
